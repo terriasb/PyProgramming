@@ -1,0 +1,6 @@
+num_one = input("Enter your first number: ")
+num_two = input("Enter your second number: ")
+# result = int(num_one) + int(num_two)
+result = float(num_two) + float(num_one)
+result.__str__()
+print("Result: " + result.__str__())
