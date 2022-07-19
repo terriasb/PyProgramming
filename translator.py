@@ -2,6 +2,11 @@
 # vowels become "g"
 # dog -> dgg
 # cat -> cgt
+'''
+This is a block comment
+i
+'''
+
 
 def translate(phrase):
     translation = ""
@@ -12,6 +17,7 @@ def translate(phrase):
             translation = translation + letter
     return translation
 # essentially rebuilding the phrase letter by letter and replacing vowels with g
+# Challenge make the program case-sensitive
 
 
 print(translate(input("Enter a phrase: ")))
