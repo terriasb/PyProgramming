@@ -1,7 +1,7 @@
 
-def exp_function(num, pow):
+def exp_function(num, power):
     result = 1
-    for index in range(pow):
+    for index in range(power):
         result *= num
     return result
 
